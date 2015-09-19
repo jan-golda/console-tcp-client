@@ -1,0 +1,30 @@
+{
+  "name": "console-tcp-client",
+  "version": "1.0.0",
+  "description": "Simple command line TCP client",
+  "main": "index.js",
+  "bin": {
+    "tcp-client": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/regzand/console-tcp-client"
+  },
+  "keywords": [
+    "TCP",
+    "client",
+    "command",
+    "line",
+    "console"
+  ],
+  "author": "Jan Golda (Regzand)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/regzand/console-tcp-client/issues"
+  },
+  "homepage": "https://github.com/regzand/console-tcp-client",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "optimist": "^0.6.1"
+  }
+}
